@@ -7,7 +7,9 @@ class Pokemon
   # that will run the SQL statement to set up your database in db/pokemon.db.
   # Your only job is to build out the methods to save and find pokemon in the database.
 
-  def initialize(name:,type:,db:,id:) #This is a keyword. It is used for mass assignment
+  def initialize(name:,type:,db:,id:) 
+    #it says keyword arguments are needed
+    #This is a keyword. It is used for mass assignment
 
     @id = id
     @name = name
